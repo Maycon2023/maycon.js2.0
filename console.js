@@ -8,4 +8,4 @@ const minhaVar = true;
 
 // tratamento de erro!
 
-console.log('deu erro!')
+console.log('te como de novo')
