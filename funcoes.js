@@ -6,15 +6,21 @@
 
 
 // 1) declara a função
-                       //string
+                      //2 -> valor de soma()
 function imprimeTexto(texto) {
     console.log(texto)
 }
-
 // 2) executa a função (1 ou + vezes)
 
-imprimeTexto("oi");
-imprimeTexto("outro texto");
+ imprimeTexto(soma());
+// imprimeTexto("outro texto");
 
 // três formas de escrever funções
 
+function soma(){
+    // outros códigos
+    // vários console.log()
+    return 111- 120;
+}
+
+// console.log(soma())
