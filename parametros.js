@@ -1,18 +1,30 @@
 // parâmetros de função
 
                //2      //2
+// function soma(numero1, numero2) {
+//     return numero1 + numero2;
+// }
+
+// console.log(soma(2, 2))
+// console.log(soma(245, 20))
+// console.log(soma(500, 60))
+
+// parâmetros x argumentos
+
+// ordem dos parâmatros
+
+function nomeIdade(nome, idade) {
+    return 'meu nome é ${nome} e minha idade é ${idade}';
+}
+
+// console.log(nomeIdade(40, "Maycon"))
+
 function soma(numero1, numero2) {
     return numero1 + numero2;
 }
 
-console.log(soma(2, 2))
-console.log(soma(245, 20))
-console.log(soma(500, 60))
-
-// parâmetros x argumentos
-
-function nomeIdade(nome: Any, idade: any): String
-any): String
-function nomeIdade(nome, idade) {
-    return 'meu nome é $'
+function multiplica(numero1 = 1, numero2 = 1) {
+    return numero1 * numero2;
 }
+                            //9        //6
+console.log(multiplica(soma(4, 5)))
