@@ -1,6 +1,6 @@
 const nome = "tico";
 const sobrenome = "meram"
-const idade = 2023-2006;
+const idade = 2023-803;
 const objetivo =" comer o PedroH"
 const cidadeDeNascimento = " Guatiriba do Sul"
 
